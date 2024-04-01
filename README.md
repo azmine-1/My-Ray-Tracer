@@ -2,3 +2,22 @@
 [Ray Tracing in a Weekend by Peter Shirley](https://raytracing.github.io/books/RayTracingInOneWeekend)
 
 Final Image output ![ray-tracing-final](https://github.com/azmine-1/My-Ray-Tracer/assets/76449596/780344ba-2572-4999-a940-9640d211dc3f)
+What does it do?
+Ray Generation: Generates primary rays from the camera's viewpoint.
+Ray-Object Intersection: Computes intersections between rays and objects in the scene (spheres, planes, etc.).
+Material Rendering: Implements basic material properties such as diffuse and reflective surfaces.
+Anti-Aliasing: Includes techniques to reduce aliasing artifacts in rendered images.
+Multi-Threading: Optionally supports multi-threading for improved performance.
+
+How to use?
+Set up the scene by defining camera parameters, objects, and materials.
+Adjust rendering settings for desired quality and performance.
+
+Dependencies:
+Programming Language: C++.
+Compiler: Requires a C++ compiler compatible with C++11 or later.
+
+Problems
+Limited to rendering basic geometric primitives (spheres, planes).
+Does not include advanced rendering features like global illumination or physically-based materials.
+Performance may vary depending on hardware and scene complexity.
