@@ -9,7 +9,6 @@ Final Image output ![ray-tracing-final](https://github.com/azmine-1/My-Ray-Trace
 - **Ray-Object Intersection:** Computes intersections between rays and objects in the scene (spheres, planes, etc.).
 - **Material Rendering:** Implements basic material properties such as diffuse and reflective surfaces.
 - **Anti-Aliasing:** Includes techniques to reduce aliasing artifacts in rendered images.
-- **Multi-Threading:** Optionally supports multi-threading for improved performance.
 
 ## How to use?
 
@@ -19,10 +18,7 @@ Final Image output ![ray-tracing-final](https://github.com/azmine-1/My-Ray-Trace
 2. **Adjust Rendering Settings:**
    Configure rendering settings for desired quality and performance.
 
-## Dependencies
 
-- **Programming Language:** C++.
-- **Compiler:** Requires a C++ compiler compatible with C++11 or later.
 
 ## Problems
 
